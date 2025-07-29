@@ -1,6 +1,6 @@
 # Introduction to VS Code
 
-![Matrix](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-R-OIqfZ-25o%2FX0Vpjwth0zI%2FAAAAAAAAVI8%2FyaZQu4DUDL8PbQn10nDGh0Jiuo8GYkbrACLcBGAsYHQ%2Fs580%2F0009.gif&f=1&nofb=1)
+![Matrix](./images/matrix.gif)
 
 
 ## Lesson Overview
@@ -14,7 +14,7 @@ This lesson is a brief introduction to VS Code by Microsoft, the go-to text edit
   - Review and synchronize certain *Settings* to ensure we all start off on the same page
   - Discuss common helpful and/or necessary *Extensions* for VS Code
 
-![Tank](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmention.com%2Fwp-content%2Fuploads%2F2016%2F04%2FMatrix-media-monitoring.gif&f=1&nofb=1)
+![Tank](./images/tank.gif)
 
 
 ## Getting Started
@@ -26,7 +26,7 @@ _"Buckle your seatbelt, Dorothy - cuz Kansas, is goin' bye-bye."_
 
 ## Basic Layout
 
-![Basic Layout](https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png)
+![Basic Layout](./images/layout.png)
 
 Take a look at the main UI (**U**ser **I**nterface) layout in the image above. Your VS Code layout may not look *exactly* like this, but it'll be close.  Let's look at each of these different sections:
 
@@ -40,7 +40,7 @@ Take a look at the main UI (**U**ser **I**nterface) layout in the image above. Y
 
   **E)** ***Status Bar*** - Shows relevant information about the current open project.
 
-![DejaVu](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette2.wikia.nocookie.net%2Fsubgenius%2Fimages%2F8%2F89%2FCat_matrix_deja_vu.gif%2Frevision%2Flatest%2Fscale-to-width-down%2F398%3Fcb%3D20160306191811&f=1&nofb=1)
+![DejaVu](./images/dejavu.gif)
 
 
 ### Features 
@@ -53,7 +53,7 @@ Take a look at the main UI (**U**ser **I**nterface) layout in the image above. Y
 
   ***Breadcrumbs*** - Above each open file is a path to help you keep track of the file locations. This can be a nice reference.
 
-![Red Pill](https://miro.medium.com/v2/resize:fit:1200/1*mTAMGuf83gAG_KWXLg8DqA.png)
+![Red Pill](./images/pills.png)
 
   
 ### Hot Keys and Shortcuts
@@ -76,33 +76,31 @@ Using this feature can save you time and make you a more productive dev.
 
 Let's hit <kbd>Cmd</kbd> + <kbd>,</kbd> to quickly open *Settings*...
 
-![Spoon](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi2.wp.com%2Friversofgrue.com%2Fwp-content%2Fuploads%2F2014%2F01%2Fthere-is-no-spoon-the-matrix-5-9-movie-clip-1999-hd.gif%3Fresize%3D450%252C190%26ssl%3D1&f=1&nofb=1)
+![Spoon](./images/spoon.gif)
 
 
 ### Settings
 Settings can be set for the User overall, or for a specific workspace/project.  For the most part, you'll want to configure the Settings for the User. As we go through each setting, search for it in the search bar to go straight to it.
 
-  ***Auto Save*** - There's a lot of debate about whether one should use Auto Save or not.  However, *best practice* is to get used to **saving your own work regularly**.  Having Auto Save turned on can overheat your machine as it attempts to re-render and re-compile entire projects with every keystroke.  For this immersive, we will set Auto Save to ` off `.
-
-  ***Compact Folders*** - There is a default behavior in VS Code to auto-collapse any empty folders in our directory structure. For new developers, this can be confusing at first and is not immeidately obvious.  For this immersive, we will set Compact Folders to ` unchecked `.
-
-There are ***tons*** of other settings that you can adjust and change to customize your editor. But beware, don't change something if you aren't sure what it does. VS Code gives us access to a lot more settings than a standard program. It assumes you know what you're doing since the primary users are programmers. So just be careful.
+There are ***tons*** of settings that you can adjust and change to customize your editor. But beware, don't change something if you aren't sure what it does. VS Code gives us access to a lot more settings than a standard program. It assumes you know what you're doing since the primary users are programmers. So just be careful.
 
 Let's hit <kbd>Shft</kbd> + <kbd>Cmd</kbd> + <kbd>X</kbd> and look at some helpful *Extensions* we can add to VS Code...
 
-![Upgrade](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.kolboid.eu%2Fcontent%2Fimages%2F2016%2F03%2Fthe-matrix-i-know-kung-fu-animation.gif&f=1&nofb=1)
+![Upgrade](./images/kung-fu.gif)
 
 
 ### Extensions
 
 VS Code allows for user-created extensions to be installed to add features, theming, and useful shortcuts and bonuses not provided by the base program. Search for each of these in the Extensions section install them. For each of these, only install the extension that has millions of downloads to ensure you're getting the correct one:
 
-  ***indent-rainbow*** - Colorizes your indentations to make it easy to tell which section you're in while coding. The one we want has **2.5M** downloads...
+  ***indent-rainbow*** - Colorizes your indentations to make it easy to tell which section you're in while coding. The one we want has **10M** downloads...
 
-  ***Python*** - An extension that helps VS Code operate normally when using the Python coding language (that we'll learn and use in Unit 4). Be sure and install the extension offered by **Microsoft** that has **44.7M** downloads...
+  ***Code Spell Checker*** - A basic spell checker that works well with code and documents. The one we want has **14M** downloads...
+
+  ***Python*** - An extension that helps VS Code operate normally when using the Python coding language (that we'll learn and use in Unit 4). Be sure and install the extension offered by **Microsoft** that has **177M** downloads...
 
   ***Prettier - Code formatter*** - Enforces a built-in style guide on your code to ensure tabulation, spacing, indents, etc. are all uniform.  There are a few steps to installing and configuring Prettier that we'll go through together:
-  1. Search for and install the VS Code extension just like we did the previous ones. Get the one with **16.2M** million downloads...
+  1. Search for and install the VS Code extension just like we did the previous ones. Get the one with **59M** million downloads...
   2. Follow the next steps EXACTLY...
   3. Hit <kbd>Ctrl</kbd> + <kbd>`</kbd> and in the built-in Terminal, enter the following command EXACTLY. Copy and pasting is recommended:
 
@@ -111,8 +109,8 @@ npm i -g prettier && touch ~/.prettierrc && echo "{"trailingComma": "none", "tab
 ```
    - installs Prettier *globally* on our machines so we always have it
    - places a Prettier file in our root directory
-   - this inserts certain settings into the file we just created that tell Prettier how to format our code
-  4. Open the Command Palette with <kbd>Shft</kbd> + <kbd>Cmd</kbd> + <kbd>P</kbd> and search "settings".  Open the first one that pops up. It should say: "**Preferences: Open User Settings (JSON)**". These are just default settings for Prettier to be able to operate like we need it to. Paste the following *inside the last closing bracket*:
+   - this inserts certain settings into the file we just created that tells Prettier how to format our code
+  4. Open the Command Palette with <kbd>Shft</kbd> + <kbd>Cmd</kbd> + <kbd>P</kbd> and search "settings".  We are looking for: "**Preferences: Open User Settings (JSON)**". These are just default settings for Prettier to be able to operate like we need it to. Paste the following *inside the last closing bracket*:
   ```json
     "[html]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -162,7 +160,7 @@ A general rule of thumb is: ***do not*** install an extension unless you **a)** 
 
 ## Lesson Recap
 
-  Hopefully you feel a little more comfortable using VS Code after this walkthrough.  This is ***the primary tool*** you will use over the next 24 weeks (and beyond) as a web developer.  The more comfortable you are with using it, the better and more efficient you will be!
+Hopefully you feel a little more comfortable using VS Code after this walkthrough.  This is ***the primary tool*** you will use over the next 12 weeks (and beyond) as a web developer.  The more comfortable you are with using it, the better and more efficient you will be!
   
 ![Believe](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F66.media.tumblr.com%2F33180dc3803c4d95c8c83b3727db4727%2Ftumblr_ozhuufZkjW1tu7563o1_500.gif&f=1&nofb=1)
 
