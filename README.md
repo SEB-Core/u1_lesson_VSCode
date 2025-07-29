@@ -1,6 +1,6 @@
 # Introduction to VS Code
 
-![Matrix](./images/matrix.gif)
+![Michael](./images/michael.png)
 
 
 ## Lesson Overview
@@ -40,6 +40,8 @@ Take a look at the main UI (**U**ser **I**nterface) layout in the image above. Y
 
   **E)** ***Status Bar*** - Shows relevant information about the current open project.
 
+  **E)** ***Status Bar*** - Shows relevant information about the current open project.
+
 ![DejaVu](./images/dejavu.gif)
 
 
@@ -47,7 +49,7 @@ Take a look at the main UI (**U**ser **I**nterface) layout in the image above. Y
 
   ***State Preservation*** - VS Code will always open in the same state you left it in.  This is an extremely handy feature. Let's try opening a directory or something and then completely closing out of VS Code. Now let's reopen the project, and look! Everything is right how we left it! (If this didn't work for you, don't worry, it will later on.)
 
-  ***Side by Side Editing*** - You can rearrange your editor windows so that you can view several at once. This can be *super* handy. Let's try that! Click on a file in the side bar and hold and drag it to one side of the Editor Group section. You should see a hilighted section where the file will be opened.
+  ***Side by Side Editing*** - You can rearrange your editor windows so that you can view several at once. This can be *super* handy. Let's try that! Click on a file in the side bar and hold and drag it to one side of the Editor Group section. You should see a highlighted section where the file will be opened.
 
   ***MiniMap*** - You can also display a code outline or "minimap" for quick navigation through a lot of code. Try View -> Show Minimap. There's a bunch of fake code in ` code.js ` that we can jump around in with the minimap (don't worry it's all fake and non-working). Let's try! With the minimap enabled, you can see a miniature layout of your entire file displayed to the right of your code. Click anywhere on that display and you will jump to that section of the code.
 
