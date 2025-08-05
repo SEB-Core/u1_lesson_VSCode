@@ -114,43 +114,29 @@ npm i -g prettier && touch ~/.prettierrc && echo "{"trailingComma": "none", "tab
    - this inserts certain settings into the file we just created that tells Prettier how to format our code
   4. Open the Command Palette with <kbd>Shft</kbd> + <kbd>Cmd</kbd> + <kbd>P</kbd> and search "settings".  We are looking for: "**Preferences: Open User Settings (JSON)**". These are just default settings for Prettier to be able to operate like we need it to. Paste the following *inside the last closing bracket*:
   ```json
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[vue]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[python]": {
-      "editor.tabSize": 4,
-      "editor.defaultFormatter": "ms-python.python",
-      "editor.formatOnType": true
-    },
-    "prettier.semi": false,
-    "editor.formatOnSave": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.wordWrap": "on",
-    "editor.tabSize": 2,
-    "explorer.compactFolders": false,
-    "files.autoSave": "off",
-    "files.associations": {
-      ".env": "plaintext",
-      "*.json": "jsonc"
-    }
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "prettier.semi": false,
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "explorer.compactFolders": false,
+  "files.autoSave": "off",
+  "files.associations": {
+    ".env": "plaintext",
+    "*.json": "jsonc"
+  }
   ```
 
 ![ShowMe](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F2c135ca96935ae5f8b31f7ad03940168%2Ftenor.gif%3Fitemid%3D5062228&f=1&nofb=1)
