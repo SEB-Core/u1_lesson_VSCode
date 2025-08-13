@@ -107,7 +107,8 @@ VS Code allows for user-created extensions to be installed to add features, them
   3. Hit <kbd>Ctrl</kbd> + <kbd>`</kbd> and in the built-in Terminal, enter the following command EXACTLY. Copy and pasting is recommended:
 
 ```sh
-npm i -g prettier && touch ~/.prettierrc && echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+npm i -g prettier \
+&& printf '%s\n' '{' '"trailingComma": "none",' '"tabWidth": 2,' '"bracketSpacing": true,' '"useTabs": false,' '"semi": false,' '"singleQuote": true' '}' > ~/.prettierrc
 ```
    - installs Prettier *globally* on our machines so we always have it
    - places a Prettier file in our root directory
