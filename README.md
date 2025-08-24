@@ -124,7 +124,7 @@ There are ***myriad*** other extensions available for VS Code, but much like Set
 A general rule of thumb is: ***do not*** install an extension unless you **a)** have read the documentation for it, **b)** know what the extension does, **c)** have a specific need for it, and **d)** will actually use it.  But if you find one you want to use, don't be afraid to try it! If it's no good, just uninstall afterward.
 
 
-![ShowMe](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F2c135ca96935ae5f8b31f7ad03940168%2Ftenor.gif%3Fitemid%3D5062228&f=1&nofb=1)
+![ShowMe](https://i.redd.it/78dk3c2okkzd1.gif)
 
 
 ## Lesson Recap
