@@ -21,6 +21,18 @@ This lesson is a brief introduction to VS Code by Microsoft, the go-to text edit
   - **Fork** and **clone** this repository
   - Open the repo in VS Code with `code .`
 
+
+## VS Code Profile Setup
+
+[⬇️ Download the Student VS Code Profile](https://github.com/SEB-Core/u1_lesson_VSCode/releases/download/profile/student.code-profile)
+
+**Import steps:**  
+1. In VS Code → Open the **Command Palette** with <kbd>Cmd</kbd> + <kbd>Shft</kbd> + <kbd>P</kbd> (<kbd>Ctrl</kbd> on Windows)
+2. Search **Profiles: Import Profile…**
+3. Select **Import from file** → pick the downloaded `student.code-profile`
+4. Click **Create & Switch**
+
+
 _"Buckle your seatbelt, Dorothy - cuz Kansas, is goin' bye-bye."_
 
 
@@ -66,9 +78,9 @@ Take a look at the main UI (**U**ser **I**nterface) layout in the image above. Y
 
   ***Save*** - Save the file you're working on with <kbd>Cmd</kbd> + <kbd>S</kbd> (sub <kbd>Ctrl</kbd> for <kbd>Cmd</kbd> if using Windows going forward)
 
-  ***Open/Close Sidebar*** - Quickly hide/show the sidebar with <kbd>Cmd</kbd> + <kbd>B</kbd>.  If this doesn't work, it could be because the current file you're in is the ReadMe file, which is in Markdown language. In Markdown, <kbd>Cmd</kbd> + <kbd>B</kbd> makes text **bold**.
+  ***Open/Close Sidebar*** - Quickly hide/show the sidebar with <kbd>Cmd</kbd> + <kbd>B</kbd>
 
-  ***Command Palette*** - Quickly open the Command Palette by hitting <kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>P</kbd>. From here, you can perform a whole bunch of tasks:
+  ***Command Palette*** - Quickly open the Command Palette by hitting <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>. From here, you can perform a whole bunch of tasks:
   - Find any file or project by simply typing it's name.
   - Cycle through recent files you've opened.
   - Search for specific Settings.
@@ -82,7 +94,7 @@ Let's hit <kbd>Cmd</kbd> + <kbd>,</kbd> to quickly open *Settings*...
 
 
 ### Settings
-Settings can be set for the User overall, or for a specific workspace/project.  For the most part, you'll want to configure the Settings for the User. As we go through each setting, search for it in the search bar to go straight to it.
+Settings can be set for the User overall, or for a specific workspace/project.  For the most part, you'll want to configure the Settings for the User.
 
 There are ***tons*** of settings that you can adjust and change to customize your editor. But beware, don't change something if you aren't sure what it does. VS Code gives us access to a lot more settings than a standard program. It assumes you know what you're doing since the primary users are programmers. So just be careful.
 
@@ -93,58 +105,26 @@ Let's hit <kbd>Shft</kbd> + <kbd>Cmd</kbd> + <kbd>X</kbd> and look at some helpf
 
 ### Extensions
 
-VS Code allows for user-created extensions to be installed to add features, theming, and useful shortcuts and bonuses not provided by the base program. Search for each of these in the Extensions section install them. For each of these, only install the extension that has millions of downloads to ensure you're getting the correct one:
+VS Code allows for user-created extensions to be installed to add features, theming, and useful shortcuts and bonuses not provided by the base program. Here are some common, useful extensions - these have already been installed for you:
 
-  ***indent-rainbow*** - Colorizes your indentations to make it easy to tell which section you're in while coding. The one we want has **10M** downloads...
+  ***indent-rainbow*** - Colorizes your indentations to make it easy to tell which section you're in while coding.
 
-  ***Code Spell Checker*** - A basic spell checker that works well with code and documents. The one we want has **14M** downloads...
+  ***Code Spell Checker*** - A basic spell checker that works well with code and documents.
 
-  ***Python*** - An extension that helps VS Code operate normally when using the Python coding language (that we'll learn and use in Unit 4). Be sure and install the extension offered by **Microsoft** that has **177M** downloads...
+  ***Python*** - An extension that helps VS Code operate normally when using the Python coding language (that we'll learn and use in Unit 4).
 
-  ***Prettier - Code formatter*** - Enforces a built-in style guide on your code to ensure tabulation, spacing, indents, etc. are all uniform.  There are a few steps to installing and configuring Prettier that we'll go through together:
-  1. Search for and install the VS Code extension just like we did the previous ones. Get the one with **59M** million downloads...
-  2. Follow the next steps EXACTLY...
-  3. Hit <kbd>Ctrl</kbd> + <kbd>`</kbd> and in the built-in Terminal, enter the following command EXACTLY. Copy and pasting is recommended:
+  ***Prettier - Code formatter*** - Enforces a built-in style guide on your code to ensure tabulation, spacing, indents, etc. are all uniform.  
 
-```sh
-npm i -g prettier \
-&& printf '%s\n' '{' '"trailingComma": "none",' '"tabWidth": 2,' '"bracketSpacing": true,' '"useTabs": false,' '"semi": false,' '"singleQuote": true' '}' > ~/.prettierrc
-```
-   - installs Prettier *globally* on our machines so we always have it
-   - places a Prettier file in our root directory
-   - this inserts certain settings into the file we just created that tells Prettier how to format our code
-  4. Open the Command Palette with <kbd>Shft</kbd> + <kbd>Cmd</kbd> + <kbd>P</kbd> and search "settings".  We are looking for: "**Preferences: Open User Settings (JSON)**". These are just default settings for Prettier to be able to operate like we need it to. Paste the following *inside the last closing bracket*:
-  ```json
-  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[python]": {
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnType": true
-  },
-  "prettier.semi": false,
-  "editor.formatOnSave": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.wordWrap": "on",
-  "editor.tabSize": 2,
-  "explorer.compactFolders": false,
-  "files.autoSave": "off",
-  "files.associations": {
-    ".env": "plaintext",
-    "*.json": "jsonc"
-  }
-  ```
+  ***Auto Rename Tag*** - Automatically renames a closing HTML tag when you rename the opening tag.
 
-![ShowMe](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F2c135ca96935ae5f8b31f7ad03940168%2Ftenor.gif%3Fitemid%3D5062228&f=1&nofb=1)
+  ***Path Intellisense*** - Automatically fills in pathnames for you to help you prevent pathing issues due to typos.
 
 There are ***myriad*** other extensions available for VS Code, but much like Settings, be careful what you install/change. Not all have been properly vetted and most make *core changes* to your VS Code environment that could directly influence your ability to code properly.
 
 A general rule of thumb is: ***do not*** install an extension unless you **a)** have read the documentation for it, **b)** know what the extension does, **c)** have a specific need for it, and **d)** will actually use it.  But if you find one you want to use, don't be afraid to try it! If it's no good, just uninstall afterward.
+
+
+![ShowMe](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F2c135ca96935ae5f8b31f7ad03940168%2Ftenor.gif%3Fitemid%3D5062228&f=1&nofb=1)
 
 
 ## Lesson Recap
