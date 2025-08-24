@@ -9,6 +9,7 @@ This lesson is a brief introduction to VS Code by Microsoft, the go-to text edit
 
 
 ## Objectives
+  - Install VS Code Student Profile
   - Review the main features and layout of VS Code
   - Practice several common hot-key commands and shortcuts
   - Review and synchronize certain *Settings* to ensure we all start off on the same page
