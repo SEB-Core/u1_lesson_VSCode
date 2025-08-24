@@ -24,7 +24,7 @@ This lesson is a brief introduction to VS Code by Microsoft, the go-to text edit
 
 ## VS Code Profile Setup
 
-[⬇️ Download the Student VS Code Profile](https://github.com/SEB-Core/u1_lesson_VSCode/releases/download/profile/student.code-profile)
+[💊 Download the Student VS Code Profile](https://github.com/SEB-Core/u1_lesson_VSCode/releases/download/profile/student.code-profile)
 
 **Import steps:**  
 1. In VS Code → Open the **Command Palette** with <kbd>Cmd</kbd> + <kbd>Shft</kbd> + <kbd>P</kbd> (<kbd>Ctrl</kbd> on Windows)
