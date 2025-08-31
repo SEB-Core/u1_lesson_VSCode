@@ -29,9 +29,11 @@ This lesson is a brief introduction to VS Code by Microsoft, the go-to text edit
 
 **Import steps:**  
 1. In VS Code → Open the **Command Palette** with <kbd>Cmd</kbd> + <kbd>Shft</kbd> + <kbd>P</kbd> (<kbd>Ctrl</kbd> on Windows)
-2. Search **Profiles: Import Profile…**
-3. Select **Import from file** → pick the downloaded `student.code-profile`
-4. Click **Create & Switch**
+2. Search **Profiles: New Profile…**
+3. There is a button that says "New Profile" - in the dropdown, select **Import Profile...** → **Select File...**
+4. Select the downloaded file
+5. At the bottom, click "Create"
+6. If prompted, click **Discard & Switch**
 
 This profile is a _pre-configured_ setup for VS Code. It installs the exact extensions and settings you’ll need for this course (like Python, Prettier, and Django support) and turns off tools and settings that could get in the way. By importing it, you’ll skip a bunch of setup headaches and start with the same environment as your classmates and instructors. That means fewer surprises, cleaner code formatting, and more time spent learning instead of troubleshooting your editor.
 
